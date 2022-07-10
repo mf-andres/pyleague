@@ -1,4 +1,4 @@
-from pyleague.main import generate_groups_per_day
+from main import generate_groups_per_day
 
 
 def test_generate_groups_per_day_works_correctly_for_even_participants():
