@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pyleague"
 version = "0.1.0"
-description = ""
+description = "Pyleague is a cli tool that helps organizing competitions. After providing pyleague with a list of the competition's participants you will be able to get the matches for each day of the competition."
 authors = ["mf-andres <amunoz@gradiant.org>"]
 readme = "README.md"
 repository = "https://github.com/mf-andres/pyleague"
