@@ -39,3 +39,7 @@ def modify_day_pointer(day_pointer, next_):
         day_pointer[0] -= 1
         day_pointer[0] %= n_of_participants() - 1
     return day_pointer
+
+
+def print_day(day_pointer):
+    print(f"Day: {day_pointer[0]}")

@@ -35,3 +35,16 @@ def read_group(day_pointer):
         groups_per_day = json.load(groups_per_day_file)
     group = groups_per_day[day_pointer[0]]
     return group
+
+
+def get_group_pairs(group):
+    number_of_participants = len(group)
+    pairs = list()
+    for i in range(int(number_of_participants / 2)):
+        pairs.append([group[i], group[-i - 1]])
+    return pairs
+
+
+def print_group_pairs(group_pairs):
+    for pair in group_pairs:
+        print(f"{pair[0]} VS {pair[1]}")
